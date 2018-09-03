@@ -19,8 +19,6 @@ class List extends React.Component {
   dragEnd(e) {
     this.dragged.style.display = "block";
     this.dragged.parentNode.removeChild(placeholder);
-
-    // update state
     var data = this.state.albuns;
     var from = Number(this.dragged.dataset.id);
     var to = Number(this.over.dataset.id);
