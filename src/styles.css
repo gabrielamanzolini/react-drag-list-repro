@@ -13,8 +13,19 @@ h4 {
   color: #fff;
 }
 
+ul {
+  border: 1px solid #fff;
+  width: 50%;
+  display: block;
+  margin-left: 20%;
+  padding: 5%;
+  background-color: #120024;
+}
 li {
   list-style: none;
-  text-align: justify;
+  text-align: center;
   color: #fff;
+  display: block;
+  padding: 2%;
+  border: 1px solid #fff;
 }
